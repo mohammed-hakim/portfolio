@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "gito": " git init && git add . && git commit -am \"push the project\" && git branch -M main && git remote add origin git@github.com:mohammed-hakim/portfolio.git && git push -u origin main",
+    "gitup": " git add . && git commit -am \"push the project\" && git push -u origin main"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
